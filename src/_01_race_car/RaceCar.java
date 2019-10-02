@@ -26,7 +26,10 @@ public class RaceCar {
 		this.brand = brand;
 		this.positionInRace = positionInRace;
 	}
-	
+	/**
+	 * This will give the position of the race car
+	 * @return the position
+	 */
 	public int getPositionInRace() {
 		return this.positionInRace;
 	}
